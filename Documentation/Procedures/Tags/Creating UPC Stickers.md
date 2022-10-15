@@ -42,8 +42,7 @@ While the item IDs are still selected, adjust your font size to fit the label, b
 - Choose *\\COCO\NORTH COPIER BW*
 - Under **Page Sizing & Handling** Choose *Actual Size*
 - Click *Properties* Button and chose the printer side tray by clicking the tray in the printer illustration and hit *OK*
-- Load your labels in the tray facing down and hit print!  
-
+- Load your labels in the tray facing down and hit print! 
 ![Mailing and Labels location](images/UPCLabels/7.png?raw=true)  
 
 ![Mailing and Labels location](images/UPCLabels/8.png?raw=true)
