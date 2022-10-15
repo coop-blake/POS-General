@@ -13,20 +13,19 @@ jobs:
       - name: Generate PDFs
         run: |-
           npm install -g md-to-pdf
-          mkdir -p _output
           cd Documentation/Procedures/Tags
+          mkdir -p _output
           echo; echo "Files in Documentation Folder"
           ls
           echo; echo "Generating PDFs"
           for f in *.md; do md-to-pdf "$f"; done;
-          echo; echo "Moving PDFs to ../output"
-          for f in *.pdf; do mv $f ../_output/; done;
-          cd ../_output
+          echo; echo "Moving PDFs to output"
+          for f in *.pdf; do mv $f _output/; done;
+          cd _output
           echo; echo "Ouput Folder Listing"
           ls
-          cd ..
         
       - uses: actions/upload-artifact@v1
         with:
-          name: output
-          path: _output
+          name: Documentation/Procedures/Tags/pdfs
+          path: Documentation/Procedures/Tags/_output
