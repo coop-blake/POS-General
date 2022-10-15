@@ -33,10 +33,8 @@ While the item IDs are still selected, adjust your font size to fit the label, b
 - Bring up Print Dialog (ctrl+P)
 - Choose *Microsoft Print to PDF* and hit Print
 - You should be presented with a Save Dialog
-- Save your PDF
-
-     ![Mailing and Labels location](images/UPCLabels/6.png?raw=true)  
-     
+- Save your PDF  
+![Mailing and Labels location](images/UPCLabels/6.png?raw=true)  
        
 ## Print from PDF
 - Open your PDF in Adobe Acrobat
@@ -45,5 +43,6 @@ While the item IDs are still selected, adjust your font size to fit the label, b
 - Under **Page Sizing & Handling** Choose *Actual Size*
 - Click *Properties* Button and chose the printer side tray by clicking the tray in the printer illustration and hit *OK*
 - Load your labels in the tray facing down and hit print!  
+
 ![Mailing and Labels location](images/UPCLabels/7.png?raw=true)
-       ![Mailing and Labels location](images/UPCLabels/8.png?raw=true)
+![Mailing and Labels location](images/UPCLabels/8.png?raw=true)
