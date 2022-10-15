@@ -19,6 +19,7 @@ jobs:
           ls
           echo; echo "Generating PDFs"
           for f in *.md; do cat $f | md-to-pdf > ../_output/file.pdf
+          echo; echo "DOne Generating"
           cd ../_output
           echo; echo "Ouput Folder Listing"
           ls
