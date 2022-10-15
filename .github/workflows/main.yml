@@ -2,6 +2,10 @@ name: buildPDFs
 
 on: 
   push:
+    branches:
+      - main
+    paths:
+      - Documentation/Procedures/Tags/**
 
 jobs:
   converttopdf:
