@@ -14,7 +14,7 @@ jobs:
         run: |-
           npm install -g md-to-pdf
           mkdir -p _output
-          cd Documentation
+          cd Documentation/Procedures
           echo; echo "Files in Documentation Folder"
           ls
           echo; echo "Generating PDFs"
