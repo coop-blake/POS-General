@@ -18,9 +18,9 @@ jobs:
           echo; echo "Files in Documentation Folder"
           ls
           echo; echo "Generating PDFs"
-          for f in *.md; do md-to-pdf $f
+          for f in *.md; do md-to-pdf $f;
           echo; echo "Moving PDFs to ../output"
-          for f in *.pdf; do mv $f ../_output/
+          for f in *.pdf; do mv $f ../_output/;
           cd ../_output
           echo; echo "Ouput Folder Listing"
           ls
