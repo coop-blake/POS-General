@@ -44,5 +44,6 @@ While the item IDs are still selected, adjust your font size to fit the label, b
 - Click *Properties* Button and chose the printer side tray by clicking the tray in the printer illustration and hit *OK*
 - Load your labels in the tray facing down and hit print!  
 
-![Mailing and Labels location](images/UPCLabels/7.png?raw=true)
+![Mailing and Labels location](images/UPCLabels/7.png?raw=true)  
+
 ![Mailing and Labels location](images/UPCLabels/8.png?raw=true)
