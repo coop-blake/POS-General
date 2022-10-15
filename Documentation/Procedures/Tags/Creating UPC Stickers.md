@@ -1,5 +1,6 @@
 # Creating UPC Stickers
 This document outlines steps taken to produce a PDF document of UPC labels for printing on a sheet of envelope label stickers.
+    ![Mailing and Labels location](/POS-General/Documentation/Procedures/Tags/images/UPCLabels/1.png?raw=true)
 
 We will be using Microsoft Word to create the document layout and formatting
 ### Create Layout
