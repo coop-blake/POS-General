@@ -43,6 +43,6 @@ Checks Base Price(I2) and Sale Price(H2) and returns descriptive text of the rel
 
 ### Return cell substrings before and after first occurance of character
 #### Return Substring Before First Character
-=LEFT(A4,(FIND("*",A4,1)-1))
+`=LEFT(A4,(FIND("*",A4,1)-1))`
 #### Return Substring After First Character
-=RIGHT(A4,LEN(A4)-FIND("*",A4))
+`=RIGHT(A4,LEN(A4)-FIND("*",A4))`
