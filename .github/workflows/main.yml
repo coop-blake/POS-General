@@ -1,0 +1,30 @@
+name: buildPDFs
+
+on: 
+  push:
+
+jobs:
+  converttopdf:
+    name: Build PDFs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      -name: Generate PDFs
+      run: |-
+        npm install -g md-to-pdf
+        mkdir -p _output
+        cd Documentation
+        echo; echo "Files in Documentation Folder"
+        ls
+        echo; echo "Generating PDFs"
+        for f in *.md; do cat $f | md-to-pdf > ../_output/$f.pdf
+        cd ../_output
+        echo; echo "Ouput Folder Listing"
+        ls
+        cd ..
+        
+      - uses: actions/upload-artifact@v1
+        with:
+          name: output
+          path: _output
