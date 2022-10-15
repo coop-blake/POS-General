@@ -20,7 +20,7 @@ jobs:
           echo; echo "Generating PDFs"
           for f in *.md; do md-to-pdf "$f"; done;
           echo; echo "Moving PDFs to output"
-          for f in *.pdf; do mv $f _output/; done;
+          for f in *.pdf; do mv "$f" _output/; done;
           cd _output
           echo; echo "Ouput Folder Listing"
           ls
