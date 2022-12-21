@@ -2,8 +2,9 @@
 Powerful String Matching Patterns
 
 ## Online Resources
-[https://regex101.com/](https://regex101.com/)
-[https://regexr.com/](https://regexr.com/)
+### Practice/Testing expressions
+  * [https://regex101.com/](https://regex101.com/)  
+  * [https://regexr.com/](https://regexr.com/)
 
 ## Examples
 
