@@ -1,7 +1,11 @@
 # Regular Expressions
 Powerful String Matching Patterns
 
-##Examples
+## Online Resources
+[https://regex101.com/](https://regex101.com/)
+[https://regexr.com/](https://regexr.com/)
+
+## Examples
 
 ### Find five digit numbers
-\D(\d{5})\D
+`\D(\d{5})\D`
