@@ -9,4 +9,10 @@ Powerful String Matching Patterns
 ## Examples
 
 ### Find five digit numbers
-`^\d{5}$`
+
+
+
+| Syntax | Description |
+| ----------- | ----------- |
+| `^\d{5}$` | Find lines that are a 5 Digit number |
+| `^(.*)\d{5}(.*)$` | Finds 5 Digit Numbers inside other characters in a line |
