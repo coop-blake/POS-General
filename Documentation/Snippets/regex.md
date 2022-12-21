@@ -8,8 +8,8 @@ Powerful String Matching Patterns
 
 ## Examples
 
-### Find five digit numbers
-
+### Find five digit numbers  
+Could also be 12 or any number
 
 
 | Syntax | Description |
