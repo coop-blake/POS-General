@@ -1,5 +1,5 @@
 # Regular Expressions
-Powerful String Matching Patterns
+Powerful String Pattern Matching 
 
 ## Online Resources
 ### Practice/Testing expressions
