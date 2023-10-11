@@ -16,3 +16,4 @@ Could also be 12 or any number
 | ----------- | ----------- |
 | `^\d{5}$` | Find lines that are a 5 Digit number |
 | `^(.*)\d{5}(.*)$` | Finds 5 Digit Numbers inside other characters in a line |
+| `\d{6}-\d{6}` | Finds 2 six digit numbers seperated by a - |
