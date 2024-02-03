@@ -87,3 +87,6 @@ Value(8), "2/$16",
 Value(8.5), "2/$17",
 Value(9), "2/$18",
 Value(9.5), "2/$19")` 
+
+### Use SupplierID tab to check if item has Distributor entry
+`=IFERROR(COUNTIFS(SupplierIDs!$A$2:$A$60000, $A5, SupplierIDs!$B$2:$B$60000, "THRESHOLD") >0, "")`
